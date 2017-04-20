@@ -1,8 +1,8 @@
 // define model =================
 var mongoose     = require('mongoose');
 
-var Todo = mongoose.model('Todo', {
+var Sample = mongoose.model('Sample', {
     text : String
  });
 
-module.exports = Todo
+module.exports = Sample

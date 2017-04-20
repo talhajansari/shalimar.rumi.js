@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        
+        <!-- jQuery - Minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+        <!-- Bootstrap - Minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Bootstrap - Minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        
+
+        <title>Shalimar Clinic</title>
+    </head>
+    
+    <body>
+    
+        <div id="shalimar-home"> 
+            <div class="container">
+
+                <!-- Nav Bar -->
+                <nav class="navbar navbar-default mar_b_0 pad_5">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                        <a class="navbar-brand pad_0" href="#"><img src="media/logo_small.png" width="50px"></a>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                      <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#" onclick="goto('#services')">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+                <!-- End Nav Bar -->
+
+            <!-- Jumbotron -->
+            <div id="jumbotron" class="row">
+                <div class="col-xs-12">
+                    <div class="pos_rel">
+                    <img id="jumbotron-img" class="img-responsive" src="assets/media/hero_1.jpg">
+                    <img id="jumbotron-logo-corner" class="visible-md-block visible-lg-block" src="media/logo_large.png">
+
+                    <img id="jumbotron-logo-middle" class="visible-xs-block visible-sm-block" src="media/logo_large.png">
+                    </div>
+                </div>
+            </div>
+            <!-- End Jumbotron -->
+
+            <div class="row height_30"></div>
+
+            <!-- Our Mission -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center">Our Mission</h1>
+                </div>
+                <div class="col-xs-12">
+                    <p class="text-center lead">We aim to provide the best possible, evidence based clinical service to those suffering from general medical and chest conditions.</p>
+                </div>
+            </div>
+            <!-- End - Our Mission -->
+
+            <div class="row height_15"></div>
+            <hr />
+            <div class="row height_30"></div>
+
+            <!-- Services -->
+            <div id="services" class="row">
+                <div class="col-xs-12 pad_b_20">
+                    <h1 class="text-center">Our Services</h1>
+                </div>
+
+                <div idx="0"  class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_1.jpg");"></div>
+                        <div class="services-title-container text-center">Medical Consultation</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">A medical consultation is a consultation which takes place between an employee and a licensed physician for the purpose of determining what medical examinations or procedures, if any, are appropriate in cases where a significant exposure to a hazardous chemical may have taken place.</div>
+                </div>
+                <div idx="1"  class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_3.jpg");"></div>
+                        <div class="services-title-container text-center">Bronchoscopy</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">Bronchoscopy is an endoscopic technique of visualizing the inside of the airways for diagnostic and therapeutic purposes. An instrument (bronchoscope) is inserted into the airways, usually through the nose or mouth, or occasionally through a tracheostomy. This allows the practitioner to examine the patient's airways for abnormalities such as foreign bodies, bleeding, tumors, or inflammation.</div>
+                </div>
+                <div idx="2"  class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_4.jpg");"></div>
+                        <div class="services-title-container text-center">Lung Function Testing</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">Pulmonary Function Testing (PFT) is an evaluation of the respiratory system including patient history, physical examinations, chest x-ray examinations, arterial blood gas analysis, and tests of pulmonary function. Pulmonary function testing has diagnostic and therapeutic roles and helps clinicians answer some general questions about patients with lung disease.</div>
+                </div>
+                <div idx="3"  class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_5.jpg");"></div>
+                        <div class="services-title-container text-center">Sleep Studies</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">Sleep studies are tests that record the body activity during sleep. They are helpful in identification of sleep disorders.</div>
+                </div>
+                <div idx="4" class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_6.jpg");"></div>
+                        <div class="services-title-container text-center">ECG</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">An electrocardiogram (ECG or EKG) is a record of the electrical activity of the heart over a period of time. It is done by electrodes attached to the outer surface of the skin and recorded by a device outside the body. It is used to monitor your heart. Doctors can use an electrocardiogram to look for patterns among these heartbeats and rhythms to diagnose various heart conditions.
+                    </div>
+                </div>
+                <div idx="5"  class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_7.jpg");"></div>
+                        <div class="services-title-container text-center">Chest Ultrasound</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">Chest ultrasound is the use of medical ultrasonography to perform imaging of the chest. It can be considered either a diagnostic or a screening procedure. It may be useful in younger women, where the denser fibrous tissue may make mammograms more difficult to interpret.</div>
+                </div>
+                <!-- <div class="col-xs-12 col-md-4 tile visible-md-block visible-lg-block">
+                </div> -->
+                <div idx="6" class="service-box col-xs-12 col-md-4">
+                    <div class="service-tile" style="position:relative;">
+                        <div class="stretch tile" style="background-image:url(media/services_2.jpg");"></div>
+                        <div class="services-title-container text-center">Pleural Procedures</div>
+                    </div>
+                    <div class="service-desc" style="display: none;">Pleural procedure or plueral tapping, also know as Thoracentesis, is an invasive procedure to remove fluid or air from the pleural space for diagnostic or therapeutic purposes. A cannula, or hollow needle, is carefully introduced into the thorax, generally after administration of local anesthesia.</div>
+                </div>
+            </div>
+            <!-- End Services -->
+
+            <div class="row height_30"></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid">
+            <div id="footer" class="row">
+                <div class="col-xs-12 pad_t_20">
+                </div>
+                <p class="text-center">All Rights Reserved. Shalimar Clinic &copy; 2017</p>
+            </div>
+        </div>
+
+        <div id="modal" style="display: none">
+            <div id="text-box"> 
+                <h3 id="modal-heading">Title</h3>
+                <div id="modal-text">Some text...</div>
+                <button type="button" id="modal-close" class="btn">Close X</button>
+            </div>
+        </div>
+    </div>
+    </body>
+
+    <script type="text/javascript" src="./index.js""></script>
+</html>

@@ -130,7 +130,14 @@ router.post('/ping', function(req, res) {
  Include Routes
 ==============================================================================*/
 
-require('./todo')(router);
+var normalizedPath = require("path").join(__dirname,"../routes/");
+console.log(normalizedPath);
+
+require("fs").readdirSync(normalizedPath).forEach(function(file) {
+  console.log("Including Routes: " + normalizedPath + file)
+  require("../routes/" + file);
+});
+
 
 /* =============================================================================
 End

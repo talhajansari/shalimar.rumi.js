@@ -44,7 +44,7 @@ mongoose.connect(config.database)
  ROUTES
 ===============================================================================*/
 
-app.use('/api', require('./api/routes/init')); // all of our API routes will be prefixed with /api/
+app.use('/api', require('./api/core/routes')); // all of our API routes will be prefixed with /api/
 app.use('/', require('./client/routes')); // our client facing routes
 
 /* =============================================================================
